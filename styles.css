@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #585353;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 6px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.cell.X{
+    color: green;
+}
+
+.cell.O{
+    color: blueviolet;
+}
